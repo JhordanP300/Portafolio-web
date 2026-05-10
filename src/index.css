@@ -1,0 +1,77 @@
+/* ============================================================
+   🎨 INDEX.CSS — Estilos globales + Tailwind CSS
+   ============================================================ */
+
+/* Fuentes de Google — DEBE ir primero antes de @tailwind */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────────────────────────
+   Variables de color personalizadas
+   ───────────────────────────────────────────────────────────── */
+@layer base {
+  :root {
+    --color-primary: #22d3ee;
+    --color-secondary: #a78bfa;
+    --color-dark: #030712;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    background-color: #030712;
+    color: white;
+  }
+
+  .font-mono, code, pre {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #111827; }
+  ::-webkit-scrollbar-thumb { background: #374151; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #22d3ee; }
+
+  ::selection {
+    background: rgba(34, 211, 238, 0.2);
+    color: #22d3ee;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Animaciones personalizadas
+   ───────────────────────────────────────────────────────────── */
+@layer utilities {
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  .animate-blink {
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-out forwards;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
