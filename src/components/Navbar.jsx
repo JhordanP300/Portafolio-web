@@ -82,7 +82,7 @@ export default function Navbar({ nombre }) {
             ))}
             <li>
               <a
-                href="/public/Hoja_Vida_Jhordan.pdf "
+                href="/Hoja_Vida_Jhordan.pdf "
                 download
                 className="ml-2 px-4 py-2 bg-cyan-500 hover:bg-cyan-400 text-gray-950 font-semibold text-sm rounded-lg transition-all duration-200 hover:scale-105 active:scale-95"
                 aria-label="Descargar hoja de vida en PDF"
@@ -128,7 +128,7 @@ export default function Navbar({ nombre }) {
               ))}
               <li className="pt-2">
                 <a
-                  href="/public/Hoja_Vida_Jhordan.pdf"
+                  href="/Hoja_Vida_Jhordan.pdf"
                   download
                   className="block text-center px-4 py-3 bg-cyan-500 hover:bg-cyan-400 text-gray-950 font-semibold text-sm rounded-lg transition-all"
                 >
