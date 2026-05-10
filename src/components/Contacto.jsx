@@ -32,7 +32,7 @@ export default function Contacto({ info }) {
           <div className="mt-4 w-16 h-1 bg-gradient-to-r from-cyan-400 to-violet-400 mx-auto rounded-full" aria-hidden="true" />
           <p className="text-gray-400 mt-4 max-w-lg mx-auto">
             ¿Tienes un proyecto en mente o una oferta laboral?{" "}
-            <span className="text-gray-300">Escríbeme, no muerde 😄</span>
+            <span className="text-gray-300">Escríbeme, no muerdo 😄</span>
           </p>
         </div>
 
