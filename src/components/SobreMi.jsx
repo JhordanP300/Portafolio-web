@@ -51,7 +51,7 @@ export default function SobreMi({ info }) {
               {/* Imagen o placeholder */}
               <div className="relative w-72 h-80 rounded-2xl overflow-hidden bg-gray-800 border border-white/10">
                 <div className="w-full h-full flex flex-col items-center justify-center text-gray-600">
-                  <img src="/Jhordan.png" alt="Foto de Jhordan Pineda, desarrollador full stack" className="w-full h-full object-cover" />
+                  <img src="https://res.cloudinary.com/dopa1ol1d/image/upload/q_auto/f_auto/v1778449870/Jhordan_rh0cpa.png" alt="Foto de Jhordan Pineda, desarrollador full stack" className="w-full h-full object-cover" />
                 </div>
               </div>
 
