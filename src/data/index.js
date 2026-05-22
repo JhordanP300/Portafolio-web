@@ -63,8 +63,8 @@ export const proyectos = [
     tecnologias: ["React", "Node.js", "Next.js", "Tailwind CSS", "Javascript"],
     imagen: true,
     imagenArchivo: "pinandprint",
-    githubUrl: "https://github.com/Pinardo25/catalogo-pinandprint.git",
-    demoUrl: "https://shopfacil-demo.vercel.app",
+    /* githubUrl: "", */
+    demoUrl: "https://catalogo-pinandprint.vercel.app/",
     destacado: true,
   },
   {
@@ -75,8 +75,8 @@ export const proyectos = [
     tecnologias: ["React", "tailwind CSS", "JavaScript"],
     imagen: true,
     imagenArchivo: "Portafolio",
-    githubUrl: "https://github.com/tu-usuario/taskflow",
-    demoUrl: "https://taskflow-app.netlify.app",
+    demoUrl: "https://desarrollador-jp.vercel.app/",
+    /* githubUrl: "", */
     destacado: false,
   },
 ];
