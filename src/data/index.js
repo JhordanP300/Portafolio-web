@@ -12,7 +12,7 @@ export const infoPersonal = {
   ubicacion: "Medellín, Colombia 🇨🇴",
   correo: "jhordanpineda88@gmail.com",
   github: "https://github.com/JhordanP300",
-  linkedin: "https://www.linkedin.com/in/jhordan-andr%C3%A9s-pineda-a7b6b81ab",
+  linkedin: "https://www.linkedin.com/in/jhordan-pineda",
   cv: "/Hoja_Vida_Jhordan.pdf",
 };
 
